@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono&display=swap");
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url("./assets/bg-pattern.png") repeat;
+  font-family: 'Open Sans', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.mono {
+  font-family: "Roboto Mono", monospace !important;
+}
+
+.card-hover:hover {
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 3px 3px 12px rgb(90, 216, 216);
+}
+
+.shadow {
+  background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, transparent 30%, transparent 70%, rgb(0, 0, 0) 100%);
+}
+
+.bg-black{
+  background-color: black;
+}
+
+.nav-link{
+  font-size: 1.7em;
+  width: 150px;
+}
+
+.nav-link:hover{
+  cursor: pointer;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link{
+  color: rgb(90, 216, 216) !important;
+}
